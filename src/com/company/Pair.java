@@ -1,11 +1,8 @@
 package com.company;
 
-import java.util.Iterator;
-import java.util.List;
-
 public class Pair<E> {
-    E firstElementOfPair;
-    E secondElementOfPair;
+    private final E firstElementOfPair;
+    private final E secondElementOfPair;
 
     public Pair(E firstElementOfPair, E secondElementOfPair) {
         this.firstElementOfPair = firstElementOfPair;
@@ -22,8 +19,7 @@ public class Pair<E> {
 
     @Override
     public String toString() {
-        return "Pair{" +
-                firstElementOfPair +
+        return "\033[01;38;05;24mPair \033[0m{" + firstElementOfPair +
                 ", " + secondElementOfPair +
                 '}';
     }
