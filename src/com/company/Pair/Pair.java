@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Pair;
 
 public class Pair<E> {
     private final E firstElementOfPair;
